@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Etcare</string>
+
+    <string name="greeting_name">Hello, Fuad</string>
+    <string name="greeting_subtitle">How are you feeling today?</string>
+    <string name="hero_title">Daily Wellness</string>
+    <string name="hero_description">Try a 10‑minute evening stretch to ease back tension.</string>
+    <string name="quick_actions_title">What do you need?</string>
+    <string name="chip_consult_doctor">Consult Doctor</string>
+    <string name="chip_symptom_check">Symptom Check</string>
+    <string name="chip_wellness_plan">Wellness Plan</string>
+    <string name="chip_health_articles">Health Articles</string>
+    <string name="article_section_title">Today\'s Health Insight</string>
+    <string name="view_all">View All</string>
+    <string name="article_title_default">Healthy Morning Routine</string>
+    <string name="read_more">Read more</string>
+    <string name="upcoming_title">Upcoming Appointments</string>
+    <string name="article_image_desc">Article image</string>
+    <string name="et">Et</string>
+    <string name="care">care</string>
+    <string name="leaf">🌿</string>
+
+    <string name="appointments_title">My Appointments</string>
+    <string name="appointments_icon_desc">Calendar</string>
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_past">Past</string>
+    <string name="chat_button">Chat</string>
+    <string name="tab_active">Active</string>
+    <string name="tab_completed">Completed</string>
+    <string name="dr_name_fn">Dr. Name FN</string>
+    <string name="today_3_30_pm">Today, 3:30 PM</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_appointments">Appointments</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="chat_list_title">Chats</string>
+    <string name="chat_icon_desc">Chat icon</string>
+    <string name="chat_empty_message">No active consultations.\nBook a doctor to start chatting.</string>
+    <string name="active_status">Active</string>
+
+    <string name="profile_title">My Profile</string>
+    <string name="profile_icon_desc">Profile icon</string>
+    <string name="language_title">Language</string>
+    <string name="records_title">My Records</string>
+    <string name="view_prescription">View Prescription</string>
+
+    <string name="doctor_list_title">Find a Doctor</string>
+    <string name="search_doctors_hint">Search by name or specialty…</string>
+    <string name="book_button">Book</string>
+
+    <string name="book_appointment_title">Book Appointment</string>
+    <string name="select_slot">Select a slot</string>
+    <string name="confirm_booking">Confirm Booking</string>
+
+    <string name="end_consultation">End Consultation</string>
+    <string name="type_message_hint">Type your message…</string>
+    <string name="send_message_desc">Send</string>
+    <string name="nearby_hospitals">Nearby Hospitals</string>
+
+    <!-- New Strings -->
+    <string name="logout">Logout</string>
+    <string name="user_name_placeholder">User Name</string>
+    <string name="user_email_placeholder">email@example.com</string>
+    <string name="preferred_language">Preferred Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_amharic">አማርኛ</string>
+    <string name="lang_oromo">Afan Oromo</string>
+    <string name="consults_label">Consultations</string>
+    <string name="health_score_label">Health Score</string>
+    <string name="consultation_history_title">Consultation History</string>
+    <string name="no_completed_consultations">No completed consultations yet.</string>
+    <string name="wellness_icon_desc">Wellness Icon</string>
+    <string name="consult_doctor_desc">Consult Doctor</string>
+    <string name="wellness_plan_desc">Wellness Plan</string>
+    <string name="health_library_desc">Health Library</string>
+    <string name="offline_mode_msg">Offline Mode - Showing cached data</string>
+    <string name="tagline">Care that fits your life</string>
+    <string name="email_label">Email address</string>
+    <string name="email_hint">your@email.com</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">Log In</string>
+    <string name="no_account_msg">Don\'t have an account? </string>
+    <string name="signup_link">Sign up</string>
+    <string name="check_internet_msg">Check your internet connection</string>
+    <string name="create_account_title">Create your account</string>
+    <string name="full_name_label">Full name</string>
+    <string name="full_name_hint">Enter your name</string>
+    <string name="confirm_password_label">Confirm password</string>
+    <string name="confirm_password_hint">Confirm</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="already_have_account_msg">Already have an account? </string>
+    <string name="login_link">Log in</string>
+    <string name="tagline_quotes">\'Care that fits your life\'</string>
+    <string name="habit_name_hint">Habit name (e.g. No sugar)</string>
+    <string name="wellness_plan_title">Wellness Plan</string>
+    <string name="day_streak">Day Streak</string>
+    <string name="todays_progress">Today\'s Progress</string>
+    <string name="your_daily_goals">Your Daily Goals</string>
+    <string name="no_habits_msg">No habits yet</string>
+    <string name="tap_to_start_plan">Tap the + to start your plan</string>
+    <string name="delete_habit_tip">Tip: Long press to delete a habit</string>
+    <string name="add_habit_desc">Add Habit</string>
+    <string name="default_habit_name">Drink 8 glasses of water</string>
+    <string name="default_habit_desc">Stay hydrated</string>
+    <string name="dr_name_placeholder">Dr. Tesfaye Bekele</string>
+    <string name="last_message_placeholder">I\'ll send you a prescription shortly.</string>
+    <string name="health_articles_title">Health Articles</string>
+    <string name="search_articles_hint">Search articles…</string>
+    <string name="completed_status">Completed</string>
+    <string name="loading">Loading...</string>
+    <string name="member_since">Member since 2024</string>
+    <string name="specialty_placeholder">General Physician</string>
+    <string name="time_placeholder">10:00 AM</string>
+    <string name="date_placeholder">May 2, 2024</string>
+    <string name="bio_placeholder">10+ years of experience in general medicine. Passionate about remote consultations and preventive care.</string>
+    <string name="reset_password_title">Reset your password</string>
+    <string name="enter_email_hint">Enter your email</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="start_consultation_hint">Tap to start consultation...</string>
+    <string name="article_title_placeholder">5 Ways to Manage Back Pain</string>
+    <string name="article_snippet_placeholder">Simple stretches and habits that actually work.</string>
+    <string name="article_meta_placeholder">5 min read • Health Tips</string>
+    <string name="read">Read</string>
+    <string name="no_habits_yet_msg">No habits added yet.\nStart your wellness journey today!</string>
+    <string name="article_body_placeholder">Full article text here...</string>
+    <string name="health_tips_label">Health Tips</string>
+    <string name="read_time_placeholder">5 min read</string>
+    <string name="zero">0</string>
+    <string name="zero_percent">0%</string>
+    <string name="habits_completed_placeholder">0/0 Habits Completed</string>
+    <string name="double_dash">--</string>
+
+    <!-- Emoji and Icons -->
+    <string name="emoji_male_doctor">👨‍⚕️</string>
+    <string name="emoji_female_doctor">👩‍⚕️</string>
+    <string name="emoji_user">👤</string>
+    <string name="emoji_sparkles">✨</string>
+    <string name="emoji_leaf">🌿</string>
+    <string name="emoji_chat">💬</string>
+    <string name="emoji_fire">🔥</string>
+    <string name="emoji_seedling">🌱</string>
+    <string name="emoji_water">💧</string>
+    <string name="emoji_bone">🦴</string>
+</resources>

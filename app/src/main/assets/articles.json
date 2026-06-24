@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "5 Ways to Manage Back Pain",
+    "snippet": "Simple stretches and habits that actually work.",
+    "body": "Back pain is one of the most common health complaints. Here are five proven methods to relieve and prevent back pain:\n\n1. Gentle morning stretches – try the cat-cow stretch and child’s pose.\n2. Maintain good posture while sitting – keep your back straight and shoulders relaxed.\n3. Take regular breaks from prolonged sitting – stand up and walk every 30 minutes.\n4. Strengthen your core muscles – a strong core supports your spine.\n5. Apply heat or cold packs – heat for stiffness, cold for inflammation.\n\nAlways consult a doctor if your pain persists or radiates down your legs.",
+    "category": "Health Tips",
+    "emoji": "🦴",
+    "readTimeMinutes": 5
+  },
+  {
+    "id": 2,
+    "title": "Understanding Hypertension",
+    "snippet": "What high blood pressure means and how to control it.",
+    "body": "Hypertension, or high blood pressure, is often called the 'silent killer' because it may have no symptoms. Normal blood pressure is around 120/80 mmHg. Readings consistently above 130/80 mmHg are considered high.\n\nRisk factors include:\n- Family history\n- High-salt diet\n- Lack of physical activity\n- Stress\n\nManagement:\n- Reduce salt intake\n- Exercise regularly\n- Maintain a healthy weight\n- Take prescribed medication\n\nRegular check-ups are crucial. If you have been diagnosed, follow your doctor's advice closely.",
+    "category": "Heart Health",
+    "emoji": "❤️",
+    "readTimeMinutes": 4
+  },
+  {
+    "id": 3,
+    "title": "Nutrition During Pregnancy",
+    "snippet": "Essential vitamins and foods for expectant mothers.",
+    "body": "A healthy diet during pregnancy supports your baby's growth and development. Key nutrients include:\n\n- Folic acid: found in leafy greens, beans, fortified cereals.\n- Iron: needed for red blood cells; sources include lean meat, spinach, lentils.\n- Calcium: for bones and teeth; dairy products, fortified plant milks.\n- Protein: eggs, lean meat, legumes.\n\nAvoid:\n- Raw or undercooked seafood and eggs\n- Unpasteurized dairy products\n- Excessive caffeine\n\nAlways consult your healthcare provider for personalised advice.",
+    "category": "Maternal Health",
+    "emoji": "🤰",
+    "readTimeMinutes": 6
+  },
+  {
+    "id": 4,
+    "title": "Managing Diabetes with Diet",
+    "snippet": "Foods that help keep your blood sugar in check.",
+    "body": "A balanced diet is essential for managing diabetes. Focus on:\n\n- Complex carbohydrates (whole grains, oats, sweet potatoes) instead of refined carbs.\n- High-fibre foods (vegetables, legumes).\n- Lean proteins (fish, chicken, beans).\n- Healthy fats (avocado, nuts, olive oil) in moderation.\n\nLimit sugary drinks, white bread, and processed snacks. Eating smaller, more frequent meals can also help prevent blood sugar spikes.\n\nWork with your doctor or dietitian to create a meal plan that fits your needs.",
+    "category": "Chronic Conditions",
+    "emoji": "🍏",
+    "readTimeMinutes": 5
+  }
+]

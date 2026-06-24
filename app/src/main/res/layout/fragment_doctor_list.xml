@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FE">
+
+    <!-- Premium Sticky Header -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:elevation="0dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:contentInsetStart="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="12dp"
+                android:paddingEnd="16dp">
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_back"
+                    android:background="@drawable/circle_purple_light"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:tint="@color/purple_primary"
+                    android:contentDescription="@string/cancel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/doctor_list_title"
+                    android:textColor="@color/text_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Search Section -->
+    <LinearLayout
+        android:id="@+id/searchSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="16dp"
+        android:elevation="2dp"
+        app:layout_constraintTop_toBottomOf="@id/appBar">
+
+        <LinearLayout
+            android:id="@+id/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_pill_bg"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:elevation="2dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_search"
+                app:tint="@color/purple_primary"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="@string/search_doctors_hint" />
+
+            <EditText
+                android:id="@+id/etSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/search_doctors_hint"
+                android:textColorHint="@color/text_secondary"
+                android:textColor="@color/text_dark"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Offline Indicator -->
+    <TextView
+        android:id="@+id/tvOfflineIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFE0E0"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="@string/offline_mode_msg"
+        android:textColor="#D32F2F"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/searchSection" />
+
+    <!-- Doctor List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDoctors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="8dp"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/tvOfflineIndicator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/item_doctor" />
+
+    <!-- Loading Spinner -->
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:indeterminateTint="@color/purple_primary"
+        app:layout_constraintTop_toTopOf="@id/rvDoctors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

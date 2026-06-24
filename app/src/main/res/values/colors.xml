@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal_primary">#0D9488</color>
+    <color name="teal_dark">#0F766E</color>
+    <color name="background_light">#F8FAFC</color>
+    <color name="card_border">#F1F5F9</color>
+    <color name="search_bg">#FFFFFF</color>
+    <color name="icon_blue_bg">#E0F2FE</color>
+    <color name="icon_green_bg">#DCFCE7</color>
+    <color name="icon_purple_bg">#F3E8FF</color>
+    <color name="icon_orange_bg">#FFEDD5</color>
+
+
+    <color name="purple_primary">#6D28D9</color>
+    <color name="purple_dark">#1E1B4B</color>
+    <color name="purple_light">#F5F3FF</color>
+    <color name="purple_accent_bg">#EDE9FE</color>
+    <color name="purple_hero_start">#6D28D9</color>
+    <color name="purple_hero_end">#7C3AED</color>
+
+    <color name="text_dark">#1E1B4B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="search_border">#E9E9F0</color>
+    <color name="nav_inactive">#94A3B8</color>
+    <color name="chip_bg">#F8F7FF</color>
+    <color name="chip_border">#F0EFFF</color>
+
+    <color name="completed_green">#166534</color>
+    <color name="end_red">#DC2626</color>
+</resources>
